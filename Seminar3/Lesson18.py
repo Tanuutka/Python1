@@ -18,8 +18,9 @@ for i in range(0,n-1):
     if abs(x-m[i]) < min:
         min=abs(x-m[i])
         min_index=i
-        if min == abs(x-m[i]):
-            if m[min_index]<=m[i]:
-                min_index=min_index
-            else: min_index =i
+for j in range(0,n-1):       
+    if min == abs(x-m[j]):
+        if m[min_index]<=m[j]:
+            min_index=min_index
+        else: min_index =j
 print(m[min_index])
