@@ -29,7 +29,7 @@ else:
         m.insert(0,m[-1])
         m.pop(-1)
         k+=1 
-        print(m)     
+          
 print(max) 
     
    
